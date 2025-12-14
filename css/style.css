@@ -1,49 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
- 
 body{
- background-color: rgb(247, 247, 236);   
+ background-color: rgb(82, 82, 81);   
 }
 
 .container{
     width: 760px;
-    background-color: rgb(229, 229, 167); 
+    background-color: rgb(255, 255, 255); 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(67, 67, 59);
 }
 
 /* SECCION DE INFORMACIÓN DE ARRIBA */
 .header{
     text-align: center;
+    font-family: "Sekuya", system-ui;
+    font-size: 110px;
+    margin: 0px;
+    padding: 0px;
+    height: 240px;
+    box-sizing: border-box;
+
+}
+
+#titulo{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.top-info{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* SECCIÓN DE IMAGENES */
 .pictures{
     display: flex;
     align-content:center ;
+    margin-top: 0px;
+    font-weight: 600; 
 }
 
 .left-pic {
     width: 30%;
     font-size: 15px;
-    margin: 5px 0px 5px 20px;
+    margin: 5px 0px 0px 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color: rgb(67, 67, 59);
 }
 
 .center-pic {
-    margin: 5px 4px 5px 4px;
+    margin: 5px 4px 0px 4px;
 }
 
 .right-pic {
     width: 30%;
     font-size: 15px;
-    margin: 5px 20px 5px 4px;
+    margin: 5px 20px 0px 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    color: rgb(67, 67, 59);
 }
 
 /* SECCIÓN DE INFORMACIÓN DE ABAJO */
 
 .bottom-info h1{
+    font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
     text-align: center;
     font-size: 60px;
     margin: 0px;
+    height: 100%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+  
 }
 
 .bottom-info-container {
@@ -55,9 +101,14 @@ body{
 
 .bottom-info-container div{
     width: auto;
-
-    background-color: rgb(253, 246, 184);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.749rem;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
+    font-weight: 600;   
+    color: rgb(67, 67, 59);
     
 }
 
